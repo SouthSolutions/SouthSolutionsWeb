@@ -3,69 +3,121 @@ import movil from "../public/movil.jpeg";
 import pc from "../public/pc.jpeg";
 import SouthSolutions4 from "../public/SouthSolutions4.jpg";
 import SouthSolutions5 from "../public/SouthSolutions5.jpg";
+import SouthSolutionstext from "../public/SouthSolutionstext.jpg";
+import Projects from "./components/Projects/page";
+import Link from "next/link";
+import Footer from "./components/Footer/Footer";
 
 export default function Home() {
-  
-  const back1 = "#d4f2fc"
-  const back2 ="#edf5f7"
+  const back1 = "#d4f2fc";
+  const back2 = "#edf5f7";
 
   const prueba1 = () => {
     return (
       <div>
-      <div
-        className="flex justify-center"
-        style={{ backgroundColor: back1 }}>
-        <Image
-          src={SouthSolutions4}
-          alt="SouthSolutions"
-          width={200}
-          height={200}
-        />
-        <h1 className="text-center text-5xl p-6 justify-center items-center m-9">
-          SouthSolutions
-          <h2 className="font-mono text-center text-3xl mt-5">
-            tu propia app, tu propia web
-          </h2>
-        </h1>
+        <div className="flex justify-center" style={{ backgroundColor: back1 }}>
+          <Image
+            src={SouthSolutions4}
+            alt="SouthSolutions"
+            width={150}
+            height={150}
+          />
+          <h1 className="text-center text-7xl p-6 justify-center items-center m-9">
+            SouthSolutions
+            <h2 className="font-mono text-center text-4xl mt-5">
+              tu propia app, tu propia web
+            </h2>
+          </h1>
+        </div>
+        <hr />
       </div>
-      <hr />
-    </div>
-    )
-  }
-
-
+    );
+  };
 
   const prueba2 = () => {
-    return(
+    return (
       <div>
-      <div
-        className="flex justify-center"
-        style={{ backgroundColor: back2 }}>
-        <Image
-          src={SouthSolutions5}
-          alt="SouthSolutions"
-          width={300}
-          height={300}
-        />
-        <h1 className="text-center text-5xl p-6 justify-center items-center m-9">
-          SouthSolutions
-          <h2 className="font-mono text-center text-3xl mt-5">
-            tu propia app, tu propia web
-          </h2>
-        </h1>
+        <div
+          className="flex justify-center p-9"
+          style={{ backgroundColor: back2 }}>
+          <Image
+            className="mr-5 -ml-6"
+            src={SouthSolutions5}
+            alt="SouthSolutionsLogo"
+            width={200}
+            height={300}
+          />
+          <Image
+            src={SouthSolutionstext}
+            alt="SouthSolutionsName"
+            height={1}
+            width={600}
+          />
+        </div>
+        <hr />
       </div>
-      <hr />
-    </div>
-    )
-  }
+    );
+  };
+
+  const projects = [
+    {
+      name: "CraftBeer",
+      url: "https://craftbeer-team.netlify.app/",
+      image:
+        "https://craftbeer-team.netlify.app/assets/craftBeerIcon-dbc1f5c6.ico",
+      description:
+        "CraftBeer es una plataforma de e-commerce especializada en la comercialización de cervezas artesanales, crea tu propia cuenta de usuario, o de vendedor, compra o vende tus productos a traves de una plataforma cencilla, moderna e intuitiva, valora tus productos favoritos y filtra por índice de amargor, precio, grado de alcohol y más",
+      platform: "web",
+    },
+    {
+      name: "BarberApp",
+      url: "",
+      image: "",
+      description: "",
+      platform: "",
+    },
+    {
+      name: "",
+      url: "",
+      image: "",
+      description: "",
+      platform: "",
+    },
+    {
+      name: "",
+      url: "",
+      image: "",
+      description: "",
+      platform: "",
+    },
+  ];
+
+  const projectsMap = projects.map((project) => {
+    return (
+      <main key={project.name}>
+        <section>
+          <Projects />
+        </section>
+      </main>
+    );
+  });
   return (
     <main>
-      <section>
-       {prueba1()}
+      <section>{prueba1()}</section>
+      <section className="flex items-center justify-center ">
+        <div className="justify-between">
+          <Link className="text-center mx-5 text-2xl" href="/projects">
+            Nuestros Proyectos
+          </Link>
+          <Link className="text-center mx-5 text-2xl" href="/contact">
+            Contactanos
+          </Link>
+        </div>
       </section>
+      <hr />
 
       <section>
-        <h3 className="text-center mt-10 text-2xl underline">
+        <h3 className="text-center mt-10 text-3xl underline">
           ¿Quienes somos?
         </h3>
 
@@ -77,11 +129,11 @@ export default function Home() {
         </article>
       </section>
 
-      <section>
-        <h3 className="text-center mt-10 text-2xl ">
+      <section className="mx-20 mt-20">
+        <h3 className="text-center  text-3xl underline ">
           ¿Por qué tener tu propia app?
         </h3>
-        <div className="flex justify-between p-4 mx-5 items-center w-4/5">
+        <div className="flex justify-between p-4 items-center">
           <article className="text-center p-6 ">
             En un mundo cada vez más digital, tener una aplicación móvil para tu
             negocio es esencial. Una aplicación móvil te permite llegar a los
@@ -97,15 +149,15 @@ export default function Home() {
           <Image
             src={movil}
             alt="movil"
-            width={200}
+            width={250}
             height={100}
             style={{ borderRadius: 99999 }}
           />
         </div>
       </section>
 
-      <section>
-        <h3 className="text-center mt-10 text-2xl">
+      <section className="mx-20">
+        <h3 className="text-center mt-10 text-3xl underline">
           ¿Por qué tener tu propia web?
         </h3>
         <div className="flex justify-between p-4 mx-5 items-center w-4/5">
@@ -129,6 +181,7 @@ export default function Home() {
           </article>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
