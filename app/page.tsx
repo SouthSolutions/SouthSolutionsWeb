@@ -4,8 +4,9 @@ import pc from "../public/pc.jpeg";
 import SouthSolutions4 from "../public/SouthSolutions4.jpg";
 import SouthSolutions5 from "../public/SouthSolutions5.jpg";
 import SouthSolutionstext from "../public/SouthSolutionstext.jpg";
-import Projects from "./components/Projects/page";
+import Projects from "./projects/page";
 import Link from "next/link";
+import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 
 export default function Home() {
@@ -37,21 +38,20 @@ export default function Home() {
   const prueba2 = () => {
     return (
       <div>
-        <div
-          className="flex justify-center p-9"
-          style={{ backgroundColor: back2 }}>
+        <div className="flex p-9" style={{ backgroundColor: back2 }}>
           <Image
             className="mr-5 -ml-6"
             src={SouthSolutions5}
             alt="SouthSolutionsLogo"
-            width={200}
-            height={300}
+            width={250}
+            height={50}
           />
           <Image
+            className="ml-3"
             src={SouthSolutionstext}
             alt="SouthSolutionsName"
             height={1}
-            width={600}
+            width={700}
           />
         </div>
         <hr />
@@ -103,16 +103,8 @@ export default function Home() {
   });
   return (
     <main>
-      <section>{prueba1()}</section>
-      <section className="flex items-center justify-center ">
-        <div className="justify-between">
-          <Link className="text-center mx-5 text-2xl" href="/projects">
-            Nuestros Proyectos
-          </Link>
-          <Link className="text-center mx-5 text-2xl" href="/contact">
-            Contactanos
-          </Link>
-        </div>
+      <section>
+        <Nav />
       </section>
       <hr />
 
