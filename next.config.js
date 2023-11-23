@@ -6,8 +6,11 @@ const nextConfig = {
         hostname: "imgs.search.brave.com",
       },
       {
-        hostname: "craftbeer-team.netlify.app"
-      }
+        hostname: "craftbeer-team.netlify.app",
+      },
+      {
+        hostname: "1000logos.net",
+      },
     ],
   },
 };
