@@ -1,13 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 import movil from "../public/movil.jpeg";
 import pc from "../public/pc.jpeg";
 import SouthSolutions4 from "../public/SouthSolutions4.jpg";
 import SouthSolutions5 from "../public/SouthSolutions5.jpg";
 import SouthSolutionstext from "../public/SouthSolutionstext.jpg";
 import Projects from "./projects/page";
-import Link from "next/link";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
+import Animation from "./components/Animation/Animation";
+
 
 export default function Home() {
   const back1 = "#d4f2fc";
@@ -103,9 +105,11 @@ export default function Home() {
   });
   return (
     <main>
-      <section>
+      <nav>
         <Nav />
-      </section>
+      </nav>
+      <hr />
+      <Animation/>
       <hr />
 
       <section>
