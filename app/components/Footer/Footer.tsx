@@ -3,41 +3,57 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <main style={{ backgroundColor: "#1b2040" }}>
-      <section className="flex justify-between">
-        <div className="text-white flex-start p-3">
+    <footer
+      style={{ backgroundColor: "#1b2040" }}
+      className="flex justify-between p-3">
+      <ul className="text-white flex-start">
+        <li>
           <h4>SouthSolutions</h4>
-          <p>contacto</p>
-          <p>blog</p>
-          <p>trabaja con nosotros</p>
-        </div>
-        <div className="text-white flex-end p-3">
-          <Link href={"https://www.instagram.com/southsolutions.tech/"} >
-            <div className="text-center justify-center items-center" >
-            <Image
-              src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-icon-4.png"
-              width={30}
-              height={30}
-              alt="Instagram"
-             
-            />
-            <p>instagram</p>
-            
-            </div>
-            
-          </Link>
-          <a href="mailto:southsolutions.tech@gmail.com">
-            <Image
-              src="https://1000logos.net/wp-content/uploads/2018/05/Gmail-icon-1.png"
-              alt="email"
-              width={30}
-              height={30}
-            />
-            E-mail
-          </a>
-        </div>
-      </section>
-    </main>
+        </li>
+        <li>
+          <Link href="/contact">Contacto</Link>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Trabaja con nosotros</a>
+        </li>
+      </ul>
+      <ul className="text-white flex-end">
+        <li>
+          <figure>
+            <Link
+              href="https://www.instagram.com/southsolutions.tech/"
+              className="flex justify-center">
+              <Image
+                src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-icon-4.png"
+                width={25}
+                height={25}
+                alt="Instagram"
+                className="flex items-center"
+              />
+            </Link>
+            <figcaption className="text-center">Instagram</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <a
+              className="flex justify-center"
+              href="mailto:southsolutions.tech@gmail.com">
+              <Image
+                src="https://1000logos.net/wp-content/uploads/2018/05/Gmail-icon-1.png"
+                alt="email"
+                width={25}
+                height={25}
+              />
+            </a>
+            <figcaption className="text-center">E-mail</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </footer>
   );
 };
 
