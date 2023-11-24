@@ -13,53 +13,7 @@ import Animation from "./components/Animation/Animation";
 
 export default function Home() {
   const back1 = "#d4f2fc";
-  const back2 = "#edf5f7";
-
-  const prueba1 = () => {
-    return (
-      <div>
-        <div className="flex justify-center" style={{ backgroundColor: back1 }}>
-          <Image
-            src={SouthSolutions4}
-            alt="SouthSolutions"
-            width={150}
-            height={150}
-          />
-          <h1 className="text-center text-7xl p-6 justify-center items-center m-9">
-            SouthSolutions
-            <h2 className="font-mono text-center text-4xl mt-5">
-              tu propia app, tu propia web
-            </h2>
-          </h1>
-        </div>
-        <hr />
-      </div>
-    );
-  };
-
-  const prueba2 = () => {
-    return (
-      <div>
-        <div className="flex p-9" style={{ backgroundColor: back2 }}>
-          <Image
-            className="mr-5 -ml-6"
-            src={SouthSolutions5}
-            alt="SouthSolutionsLogo"
-            width={250}
-            height={50}
-          />
-          <Image
-            className="ml-3"
-            src={SouthSolutionstext}
-            alt="SouthSolutionsName"
-            height={1}
-            width={700}
-          />
-        </div>
-        <hr />
-      </div>
-    );
-  };
+  const back2 = "#edf5f7";  
 
   const projects = [
     {
