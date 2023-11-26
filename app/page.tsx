@@ -2,10 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import movil from "../public/movil.jpeg";
 import pc from "../public/pc.jpeg";
-import SouthSolutions4 from "../public/SouthSolutions4.jpg";
-import SouthSolutions5 from "../public/SouthSolutions5.jpg";
-import SouthSolutionstext from "../public/SouthSolutionstext.jpg";
-import Projects from "./projects/page";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import Animation from "./components/Animation/Animation";
@@ -15,48 +11,7 @@ export default function Home() {
   const back1 = "#d4f2fc";
   const back2 = "#edf5f7";  
 
-  const projects = [
-    {
-      name: "CraftBeer",
-      url: "https://craftbeer-team.netlify.app/",
-      image:
-        "https://craftbeer-team.netlify.app/assets/craftBeerIcon-dbc1f5c6.ico",
-      description:
-        "CraftBeer es una plataforma de e-commerce especializada en la comercialización de cervezas artesanales, crea tu propia cuenta de usuario, o de vendedor, compra o vende tus productos a traves de una plataforma cencilla, moderna e intuitiva, valora tus productos favoritos y filtra por índice de amargor, precio, grado de alcohol y más",
-      platform: "web",
-    },
-    {
-      name: "BarberApp",
-      url: "",
-      image: "",
-      description: "",
-      platform: "",
-    },
-    {
-      name: "",
-      url: "",
-      image: "",
-      description: "",
-      platform: "",
-    },
-    {
-      name: "",
-      url: "",
-      image: "",
-      description: "",
-      platform: "",
-    },
-  ];
-
-  const projectsMap = projects.map((project) => {
-    return (
-      <main key={project.name}>
-        <section>
-          <Projects />
-        </section>
-      </main>
-    );
-  });
+ 
   return (
     <main>
       <nav>
