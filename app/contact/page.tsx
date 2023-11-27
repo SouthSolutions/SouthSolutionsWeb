@@ -30,7 +30,7 @@ const Contact = () => {
                   <button>Quiero mi Web</button>
                 </li>
                 <li className="px-4 py-8">
-                  <a href="href=mailto:southsolutions.tech@gmail.com">
+                  <a href="mailto:southsolutions.tech@gmail.com">
                     Quiero hacer una consulta
                   </a>
                 </li>
