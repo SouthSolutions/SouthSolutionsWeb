@@ -11,6 +11,13 @@ const nextConfig = {
       {
         hostname: "1000logos.net",
       },
+      {
+        hostname: "play-lh.googleusercontent.com"
+      },
+      {
+        hostname: "world-of-dogs.netlify.app"
+      },
+    
     ],
   },
 };
