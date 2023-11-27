@@ -8,7 +8,7 @@ const Footer = () => {
       className="flex justify-between p-3">
       <ul className="text-white flex-start">
         <li>
-          <h4>SouthSolutions</h4>
+          <Link href="/"><h4>SouthSolutions</h4></Link>
         </li>
         <li>
           <Link href="/contact">Contacto</Link>
@@ -18,6 +18,9 @@ const Footer = () => {
         </li>
         <li>
           <a href="#">Trabaja con nosotros</a>
+        </li>
+        <li>
+          <Link href="/"> Inicio </Link>
         </li>
       </ul>
       <ul className="text-white flex-end">
