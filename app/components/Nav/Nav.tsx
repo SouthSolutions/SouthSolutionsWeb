@@ -14,6 +14,7 @@ const Nav = () => {
         width={100}
         height={60}
       />
+      <Link href="/"> 
       <Image
         className="ml-5"
         src={SouthSolutionstext}
@@ -21,6 +22,8 @@ const Nav = () => {
         height={1}
         width={300}
       />
+      </Link>
+     
     </div>
   
     <div className="flex flex-row items-start" style={{ marginTop: "10px" }}>
