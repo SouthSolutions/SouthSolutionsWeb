@@ -60,7 +60,7 @@ const Projects = () => {
         </h1>
       </div>
         <hr />
-      <div className="flex p-5 m-6"> {projectsMap}</div>
+      <div className="flex p-5 m-6 "> {projectsMap}</div>
       <Footer/>
     </section>
   );
