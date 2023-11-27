@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -14,44 +14,43 @@ interface CardProps {
 }
 
 const Card: FC<CardProps> = ({ image, description, name, url, platform }) => {
+  const [isHovered, setIsHovered] = useState(false);
 
-    const [isHovered, setIsHovered] = useState(false);
-
-    const handleHover = () => {
-        if (isHovered) {
-            return (
-                <div>
-                    <p>{description}</p>
-                </div>
-            )
-        }
+  const handleHover = () => {
+    if (isHovered) {
+      return (
+        <div className="transition-all duration-[1s]">
+          <p>{description}</p>
+        </div>
+      );
     }
+  };
 
-  
   return (
-    <main className="flex-between">
-      <section className="flex flex-column w-[20em]">
-        <article 
-        onMouseEnter={()=>setIsHovered(true)}
-        onMouseLeave={()=>setIsHovered(false)}
-          className="border rounded-[3em] text-center flex-between group">
+    <main >
+      <section className="flex p-2 ">
+        <article className="border rounded-[3em] text-center group ease-in-out mx-auto w-[15em] transition-all duration-[1s]">
+        <Link href={url}>
           <figure title={description} className="mx-auto self-center">
             <figcaption>{name}</figcaption>
             <Image
-              className="rounded-[3em] mx-auto p-8 group-hover:p-[2.5em] transition-[1s]"
+              className="rounded-[3em] mx-auto p-4 group-hover:p-[2.5em] transition-all duration-[1s] ease-in-out"
               src={image}
               alt={name}
               height={300}
               width={300}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
             />
           </figure>
           <ul>
-            <li className="group-hover:p-[2.5em] transition-[2s] ease-in-out text-[.7em]  ">
+            <li className="group-hover:p-[2.5em] text-[.7em] transition-all duration-[1s] ease-in-out ">
+              {" "}
               {handleHover()}
             </li>
             <li>{platform}</li>
           </ul>
-          <a href={url}>visita haciendo click</a>
+          visita haciendo click</Link>
         </article>
       </section>
     </main>
