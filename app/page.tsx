@@ -37,7 +37,7 @@ export default function Home() {
           <h3 className="text-center  text-3xl underline ">
             ¿Por qué tener tu propia app?
           </h3>
-          <div className="flex justify-between p-4 items-center">
+          <div className="flex justify-between p-4 items-center flex-col md:flex-row">
             <article className="text-center p-6 ">
               En un mundo cada vez más digital, tener una aplicación móvil para
               tu negocio es esencial. Una aplicación móvil te permite llegar a
@@ -49,7 +49,6 @@ export default function Home() {
               negocio, aumentar tu alcance y ofrecer un servicio excepcional,
               todo al alcance de la mano de tus clientes.
             </article>
-
             <Image
               src={movil}
               alt="movil"
