@@ -63,7 +63,7 @@ export default function Home() {
           <h3 className="text-center mt-10 text-3xl underline">
             ¿Por qué tener tu propia web?
           </h3>
-          <div className="flex justify-between p-4 mx-5 items-center w-4/5">
+          <div className="flex justify-between p-4 items-center flex-col md:flex-row">
             <Image
               src={pc}
               alt="web"
