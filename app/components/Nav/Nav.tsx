@@ -6,7 +6,7 @@ import SouthSolutionstext from "../../../public/SouthSolutionstext.jpg";
 const Nav = () => {
   return (
     <section className="flex justify-between" style={{ backgroundColor: "#edf5f7" }}>
-    <div className="justify-between flex p-4">
+    <div className="justify-between flex">
       <Image
         className="m-3 rounded-sm"
         src={SouthSolutions5}
@@ -16,7 +16,7 @@ const Nav = () => {
       />
       <Link href="/"> 
       <Image
-        className="ml-1 rounded-sm p-6 w-full md:w-auto "
+        className="ml-1 rounded-sm p-2 w-full md:w-auto "
         src={SouthSolutionstext}
         alt="SouthSolutionsName"
         height={100}
