@@ -8,7 +8,7 @@ const Nav = () => {
     <section className="flex justify-between" style={{ backgroundColor: "#edf5f7" }}>
     <div className="flex p-5">
       <Image
-        className="mr-5 -ml-6"
+        className="mr-5 -ml-6 rounded-[3em]"
         src={SouthSolutions5}
         alt="SouthSolutionsLogo"
         width={100}
@@ -16,7 +16,7 @@ const Nav = () => {
       />
       <Link href="/"> 
       <Image
-        className="ml-5"
+        className="ml-5 rounded-[3em]"
         src={SouthSolutionstext}
         alt="SouthSolutionsName"
         height={1}
