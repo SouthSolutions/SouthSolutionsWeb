@@ -25,7 +25,7 @@ export default function Animation() {
         style={{ backgroundColor: "#edf5f7" }}>
         <h1
           style={{ fontFamily: "monospace" }}
-          className="text-5xl text-white"
+          className="text-4xl text-white"
           id="typed"></h1>
       </div>
     </section>
