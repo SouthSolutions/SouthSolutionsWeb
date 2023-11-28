@@ -16,7 +16,7 @@ const Nav = () => {
       />
       <Link href="/"> 
       <Image
-        className="ml-sm rounded-[1em] p-5 w-full md:w-auto bg-[#edf5f7]  "
+        className="ml-sm rounded-[1em] p-6 w-full md:w-auto bg-[#edf5f7]  "
         src={SouthSolutionstext}
         alt="SouthSolutionsName"
         height={100}
