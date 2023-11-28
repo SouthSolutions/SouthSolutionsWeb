@@ -6,13 +6,13 @@ import SouthSolutionstext from "../../../public/SouthSolutionstext.jpg";
 const Nav = () => {
   return (
     <section className="flex justify-between" style={{ backgroundColor: "#edf5f7" }}>
-    <div className="flex p-4">
+    <div className="justify-between flex p-4">
       <Image
         className="mr-4 ml-8 rounded-[50%]"
         src={SouthSolutions5}
         alt="SouthSolutionsLogo"
-        width={150}
-        height={30}
+        width={100}
+        height={5}
       />
       <Link href="/"> 
       <Image
@@ -27,10 +27,10 @@ const Nav = () => {
     </div>
   
     <div className="flex flex-row items-start" style={{ marginTop: "10px" }}> 
-      <Link className="text-center mx-5 text-1xl p-2  hover:bg-[#2babae] hover:border rounded-[3em] hover:transition-all duration-300 ease-in-out" href="/projects">
+      <Link className="text-center mx-2 text-1xl p-2  hover:bg-[#2babae] hover:border rounded-[3em] hover:transition-all duration-300 ease-in-out" href="/projects">
         Nuestros Proyectos
       </Link>
-      <Link className="text-center mx-5 text-1xl p-2 hover:bg-[#2babae] hover:transition-all duration-300 ease-in-out hover:border rounded-[3em]" href="/contact">
+      <Link className="text-center mx-2 text-1xl p-2 hover:bg-[#2babae] hover:transition-all duration-300 ease-in-out hover:border rounded-[3em]" href="/contact">
         Contactanos
       </Link>
     </div>
