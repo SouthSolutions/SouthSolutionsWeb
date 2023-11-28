@@ -26,11 +26,11 @@ const Nav = () => {
      
     </div>
   
-    <div className="flex flex-row items-start" style={{ marginTop: "10px" }}>
-      <Link className="text-center mx-5 text-1xl" href="/projects">
+    <div className="flex flex-row items-start" style={{ marginTop: "10px" }}> 
+      <Link className="text-center mx-5 text-1xl p-2  hover:bg-[#2babae] hover:border rounded-[3em] hover:transition-all duration-300 ease-in-out" href="/projects">
         Nuestros Proyectos
       </Link>
-      <Link className="text-center mx-5 text-1xl" href="/contact">
+      <Link className="text-center mx-5 text-1xl p-2 hover:bg-[#2babae] hover:transition-all duration-300 ease-in-out hover:border rounded-[3em]" href="/contact">
         Contactanos
       </Link>
     </div>
