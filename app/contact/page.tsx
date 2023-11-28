@@ -21,15 +21,15 @@ const Contact = () => {
           <aside className="p-2 my-5 bg-[linear-gradient(-120deg,white,_#edf5f7_,_#edf5f7_,_#2babae_,_#0f1026_)] h-[30em]">
             <div className="p-5">
               <ul>
-                <li onClick={() => handleOnClick("app")} className="px-4 py-8">
+                <li onClick={() => handleOnClick("app")} className="px-4 py-3 my-3 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
                   {" "}
                   <button>Quiero mi App</button>
                 </li>
-                <li onClick={() => handleOnClick("web")} className="px-4 py-8">
+                <li onClick={() => handleOnClick("web")} className="px-4 py-3 my-3 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
                   {" "}
                   <button>Quiero mi Web</button>
                 </li>
-                <li className="px-4 py-8">
+                <li className="px-4 py-3 my-3 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
                   <a href="mailto:southsolutions.tech@gmail.com">
                     Quiero hacer una consulta
                   </a>
