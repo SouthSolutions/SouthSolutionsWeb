@@ -20,7 +20,6 @@ const Contact = () => {
   const eCommerce = 1500;
 
   // ------------------------------- change types -------------------------- //
- 
 
   return (
     <>
@@ -85,73 +84,74 @@ const Contact = () => {
               )}
 
               {selected === "web" && (
-                
-                <div className="bg-[#0f1026] text-white p-3 wrap">
+                <div className="bg-[#0f1026] text-white p-2 wrap">
                   <div>
-                     <h3 className="text-center">Elije tu Web</h3>
+                    <h3 className="text-center">Elije tu Web</h3>
                   </div>
                   <div>
-                    
                     <ul>
                       <li className="p-3 flex justify-between">
-                        <div className="w-[9em]">
+                        <div className="w-[8em]">
                           <span>Landing Page</span>
                           <ul>
                             <li className="text-[.8em]">Página Simple</li>
                             <li className="text-[.67em]">Hosting + NIC</li>
                           </ul>
                         </div>
-                        <p>.....................................................</p>
+                        <p>...........................................</p>
 
-                        <div className="pl-[1em] w-[9em]">
+                        <div className="pl-[.5em] w-[7em] flex">
                           <span>${landingUsd} USD</span>
                           <div>
-                            <ul className="text-[.67em]">
-                            </ul>
+                            <ul className="text-[.67em]"></ul>
                           </div>
                         </div>
                       </li>
                       <li className="p-3 flex justify-between">
-                        <div className="w-[9em]">
+                        <div className="w-[8em]">
                           <span>Small Page</span>
                           <ul>
                             <li className="text-[.8em]"> 2 - 5 rutas </li>
                             <li className="text-[.67em]"> Hosting + NIC </li>
-                            <li className="text-[.67em]">server + base de datos</li>
+                            <li className="text-[.67em]">
+                              server + base de datos
+                            </li>
                           </ul>
                         </div>
-                        <p>.....................................................</p>
+                        <p>...........................................</p>
 
-                        <div className="pl-[1em] w-[9em]">
+                        <div className="pl-[.5em] w-[7em]">
                           <span>${smallUsd} USD</span>
-                          <ul className="text-[.67em]">
-                          </ul>
+                          <ul className="text-[.67em]"></ul>
                         </div>
                       </li>
                       <li className="p-3 flex justify-between">
-                        <div className="w-[9em]">
+                        <div className="w-[8em]">
                           <span>E-Commerce</span>
                           <ul>
                             <li className="text-[.67em]">Hosting + NIC</li>
-                            <li className="text-[.67em]">Server + Base de Datos</li>
+                            <li className="text-[.67em]">
+                              Server + Base de Datos
+                            </li>
                             <li className="text-[.67em]">Pasarela de Pagos</li>
-                            <li className="text-[.67em]">Dashboard Administrador</li>
+                            <li className="text-[.67em]">
+                              Dashboard Admin
+                            </li>
                           </ul>
                         </div>
-                        <p>.....................................................</p>
-                        <div className="pl-[1em] w-[9em]">
+                        <p>...........................................</p>
+                        <div className="pl-[.5em] w-[7em]">
                           <span>${eCommerce} USD</span>
-                          <ul className="text-[.67em]">
-                          </ul>
                         </div>
                       </li>
                       <li className="p-3 flex justify-between">
-                       <div className="w-[10em]">
-                        <span>Custom</span>
-                       </div>
-                       <p>.....................................................</p>
-                       <div className="pl-[1em] w-[9em]"> Personalizado</div>
-
+                        <div className="w-[7em]">
+                          <span>Custom</span>
+                        </div>
+                        <p>...........................................</p>
+                        <div className="pl-[.5em] w-[7em]">
+                          <span>Personalizado</span> 
+                           </div>
                       </li>
                     </ul>
                   </div>
@@ -163,7 +163,7 @@ const Contact = () => {
                   <h3 className="text-center">Elije tu servicio</h3>
                   <p className="py-3">
                     {
-                      "<------------------------------------------------------------------------------------"
+                      "<--------------------------------------------------------------------------"
                     }
                   </p>
                 </div>
@@ -172,8 +172,8 @@ const Contact = () => {
           </div>
         </section>
       </main>
-        <div className="m-5"></div>
-      <footer>
+      <div className="m-5"></div>
+      <footer className="w-full">
         <Footer />
       </footer>
     </>
