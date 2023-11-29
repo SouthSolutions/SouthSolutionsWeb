@@ -20,9 +20,7 @@ const Contact = () => {
   const eCommerce = 1500;
 
   // ------------------------------- change types -------------------------- //
-  const arsChangeType = 377.57;
-  const clpChangeType = 871;
-  const colChangeType = 4043.8;
+ 
 
   return (
     <>
@@ -32,7 +30,7 @@ const Contact = () => {
       <div className="m-5"></div>
       <main className="flex justify-between ">
         <section className="flex">
-          <aside className="p-2 bg-[linear-gradient(-120deg,white,_#edf5f7_,_#edf5f7_,_#2babae_,_#0f1026_)] h-auto">
+          <aside className="p-2 bg-[linear-gradient(-120deg,white,_#edf5f7_,_#edf5f7_,_#2babae_,_#0f1026_)] h-auto flex">
             <div className="p-5">
               <ul>
                 <li
@@ -89,11 +87,11 @@ const Contact = () => {
               )}
 
               {selected === "web" && (
-                <div className="bg-[#0f1026] text-white p-3">
+                <div className="bg-[#0f1026] flex text-white p-3">
                   <h3 className="text-center">Elije tu Web</h3>
                   <div>
                     <ul>
-                      <li className="p-3 flex justify-between">
+                      <li className="p-sm flex justify-between">
                         <div className="w-[10em]">
                           <span>Landing Page</span>
                           <ul>
@@ -101,15 +99,12 @@ const Contact = () => {
                             <li className="text-[.67em]">Hosting + NIC</li>
                           </ul>
                         </div>
-                        <p>..........................................................................</p>
+                        <p>..................................................................</p>
 
                         <div className="pl-[2em] w-[9em]">
                           <span>${landingUsd} USD</span>
                           <div>
                             <ul className="text-[.67em]">
-                              <li>$ {landingUsd * clpChangeType} CLP (chi)</li>
-                              <li>$ {landingUsd * arsChangeType} ARS (arg)</li>
-                              <li>$ {landingUsd * colChangeType} COL (col)</li>
                             </ul>
                           </div>
                         </div>
@@ -123,14 +118,11 @@ const Contact = () => {
                             <li className="text-[.67em]">server + base de datos</li>
                           </ul>
                         </div>
-                        <p>..........................................................................</p>
+                        <p>..................................................................</p>
 
                         <div className="pl-[2em] w-[9em]">
                           <span>${smallUsd} USD</span>
                           <ul className="text-[.67em]">
-                            <li>$ {smallUsd * clpChangeType} CLP (chi)</li>
-                            <li>$ {smallUsd * arsChangeType} ARS (arg)</li>
-                            <li>$ {smallUsd * colChangeType} COL (col)</li>
                           </ul>
                         </div>
                       </li>
@@ -144,13 +136,10 @@ const Contact = () => {
                             <li className="text-[.67em]">Dashboard Administrador</li>
                           </ul>
                         </div>
-                        <p>..........................................................................</p>
+                        <p>..................................................................</p>
                         <div className="pl-[2em] w-[9em]">
                           <span>${eCommerce} USD</span>
                           <ul className="text-[.67em]">
-                            <li>${eCommerce * clpChangeType} CLP (chi)</li>
-                            <li>${eCommerce * arsChangeType} ARS (arg)</li>
-                            <li>${eCommerce * colChangeType} COL (col) </li>
                           </ul>
                         </div>
                       </li>
@@ -158,7 +147,7 @@ const Contact = () => {
                        <div className="w-[10em]">
                         <span>Custom</span>
                        </div>
-                       <p>..........................................................................</p>
+                       <p>..................................................................</p>
                        <div className="pl-[2em] w-[9em]"> Personalizado</div>
 
                       </li>
