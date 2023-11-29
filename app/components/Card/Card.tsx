@@ -33,14 +33,14 @@ const Card: FC<CardProps> = ({ image, description, name, url, platform }) => {
           href={url}
           className="  group group-hover:p-[2.5em] transition-all duration-[1s] ease-in-out">
           <article className="border rounded-[3em] text-center  ease-in-out mx-auto w-[15em] transition-all duration-[1s]">
-            <figure title={description} className="mx-auto self-center">
+            <figure title={description} className="mx-auto">
               <figcaption>{name}</figcaption>
               <Image
                 className="rounded-[3em] mx-auto p-4 group-hover:p-[2.5em] transition-all duration-[1s] ease-in-out"
                 src={image}
                 alt={name}
-                height={300}
-                width={300}
+                height={200}
+                width={200}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               />

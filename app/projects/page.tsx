@@ -38,7 +38,7 @@ const Projects = () => {
 
   const projectsMap = projects.map((project) => {
     return (
-      <main key={project.name}>
+      <main key={project.name} >
         <section>
           <Card
             name={project.name}
@@ -60,7 +60,7 @@ const Projects = () => {
         </h1>
       </div>
         <hr />
-      <div className="flex p-5 m-6 "> {projectsMap}</div>
+      <div className="flex justify-between p-5 m-6 flex-wrap md:flex-row"> {projectsMap}</div>
       <Footer/>
     </section>
   );
