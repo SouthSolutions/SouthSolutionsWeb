@@ -15,6 +15,7 @@ export default function Home() {
       <nav>
         <Nav />
       </nav>
+      <hr />
       <main>
         <hr />
         <Animation />
