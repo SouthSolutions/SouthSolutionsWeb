@@ -33,25 +33,25 @@ const Contact = () => {
       <main className="flex justify-between ">
         <section className="flex">
           <aside className=" p-1 bg-[linear-gradient(-120deg,white,_#edf5f7_,_#edf5f7_,_#2babae_,_#0f1026_)] h-auto  grid items-center">
-            <div className="p-4 grid items-auto justify-center">
+            <div className="p-2 grid items-auto justify-center lg:p-4">
               <ul>
                 <li
                   onClick={() => handleOnClick("app")}
-                  className="px-1 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
-                  <button className="text-[.8rem] md:text-md lg:text-lg">
+                  className="px-.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                  <button className="text-[.7rem] md:text-md lg:text-lg">
                     Quiero mi App
                   </button>
                 </li>
                 <li
                   onClick={() => handleOnClick("web")}
-                  className="px-1 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
-                  <button className="text-[.8rem] md:text-md lg:text-lg">
+                  className="px-.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                  <button className="text-[.7rem] md:text-md lg:text-lg">
                     Quiero mi Web
                   </button>
                 </li>
-                <li className="px-1 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                <li className="px-.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
                   <a
-                    className="text-[.8rem] md:text-md lg:text-lg "
+                    className="text-[.6rem] md:text-md lg:text-lg lg:p-2 "
                     href="mailto:southsolutions.tech@gmail.com">
                     Quiero hacer una consulta
                   </a>
@@ -88,15 +88,23 @@ const Contact = () => {
                             </ul>
                           </div>
 
-                          <p className="text-[.5rem]">.........................</p>
-                          <span className="text-[.8rem] md:text-md lgtext-lg">$ 350 USD</span>
+                          <p className="text-[.5rem]">
+                            .........................
+                          </p>
+                          <span className="text-[.8rem] md:text-md lgtext-lg">
+                            $ 350 USD
+                          </span>
                         </div>
                       </li>
                       <li className="py-3">
                         <div className="flex justify-between">
                           <span>custom</span>
-                          <p className="text-[.5rem]">.........................</p>
-                          <span className="text-[.8rem] md:text-md lgtext-lg">Personalizado</span>
+                          <p className="text-[.5rem]">
+                            .........................
+                          </p>
+                          <span className="text-[.8rem] md:text-md lgtext-lg">
+                            Personalizado
+                          </span>
                         </div>
                       </li>
                     </ul>
@@ -105,85 +113,98 @@ const Contact = () => {
               )}
 
               {selected === "web" && (
-                <div className="bg-[#0f1026] text-white p-2 wrap">
+                <div className="bg-[#0f1026] text-white p-1 wrap">
                   <div>
                     <h3 className="text-center">Elije tu Web</h3>
                   </div>
                   <div>
                     <ul>
-                      <li className="p-3 flex justify-between">
-                        <div className="w-[8em]">
-                          <span>Landing Page</span>
+                      <li className=" p-1 md:p-3 lg:p-4 flex justify-between">
+                        <div className="w-[5.5em] md:w-[8rem]">
+                          <span className="text-[.7rem] md:tex-md lg:text-lg">
+                            Landing Page
+                          </span>
                           <ul>
-                            <li className="text-[.8em]">Página Simple</li>
-                            <li className="text-[.67em]">Hosting + NIC</li>
-                          </ul>
-                        </div>
-                        <p className="text-[.5rem]">.................................</p>
-
-                        <div className="pl-[.5em] w-[6em] flex text-sm md:text-md lg:text-lg">
-                          <span>${landingUsd} USD</span>
-                          <div>
-                            <ul className="text-[.67em]"></ul>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="p-3 flex justify-between">
-                        <div className="w-[8em]">
-                          <span>Small Page</span>
-                          <ul>
-                            <li className="text-[.8em]"> 2 - 5 rutas </li>
-                            <li className="text-[.67em]"> Hosting + NIC </li>
-                            <li className="text-[.67em]">
-                              server + base de datos
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
+                              Página Simple
+                            </li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                              Hosting + NIC
                             </li>
                           </ul>
                         </div>
-                        <p className ="text-[.5rem]">.................................</p>
+                        <p className="text-[.5rem]">
+                          .................................
+                        </p>
 
-                        <div className="pl-[.3em] w-[6em]  text-sm md:text-md lg:text-lg">
+                        <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
+                          <span>${landingUsd} USD</span>
+                        </div>
+                      </li>
+                      <li className="p-1 md:p-3 lg:p-4 flex justify-between">
+                        <div className="w-[5.5em] md:w-[8rem]">
+                          <span className="text-[.7rem] md:tex-md lg:text-lg">Small Page</span>
+                          <ul>
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">2 - 5 rutas
+                            </li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Hosting + NIC</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">server + base de datos</li>
+                          </ul>
+                        </div>
+                        <p className="text-[.5rem]">
+                          .................................
+                        </p>
+
+                        <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
                           <span>${smallUsd} USD</span>
                           <ul className="text-[.67em]"></ul>
                         </div>
                       </li>
-                      <li className="p-3 flex justify-between">
-                        <div className="w-[8em]">
-                          <span>Sm E-Commerce</span>
-                          <ul className="text-[.67em]">
-                            <li className="text-[.  8em]">SPA</li>
-                            <li>Hosting + NIC</li>
-                            <li>Pasarela de Pagos</li>
-                            <li>Server + Base de Datos</li>
+                      <li className="p-1 md:p-3 lg:p-4 flex justify-between">
+                        <div className="w-[5.5em] md:w-[8rem]">
+                          <span className="text-[.7rem] md:tex-md lg:text-lg">Sm E-Commerce</span>
+                          <ul> 
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">SPA</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Hosting + NIC</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Pasarela de Pagos</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Server + Base de Datos</li>
                           </ul>
                         </div>
-                        <p className ="text-[.5rem]">.................................</p>
-                        <div className="pl-[.3em] w-[6em]  text-sm md:text-md lg:text-lg">
+                        <p className="text-[.5rem]">
+                          .................................
+                        </p>
+                        <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
                           <span>${SeCommerce} USD</span>
                         </div>
                       </li>
-                      <li className="p-3 flex justify-between">
-                        <div className="w-[8em]">
-                          <span>Lg E-Commerce</span>
-                          <ul className="text-[.67em]">
-                            <li>Hosting + NIC</li>
-                            <li>Server + Base de Datos</li>
-                            <li>Pasarela de Pagos</li>
-                            <li>Notificaciones</li>
-                            <li>Dashboard Admin</li>
+                      <li className="p-1 md:p-3 lg:p-4 flex justify-between">
+                        <div className="w-[5.5em] md:w-[8rem]">
+                          <span className="text-[.7rem] md:tex-md lg:text-lg">Lg E-Commerce</span>
+                          <ul>
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">Full</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Hosting + NIC</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Server + Base de Datos</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Pasarela de Pagos</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Notificaciones</li>
+                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Dashboard Admin</li>
                           </ul>
                         </div>
-                        <p className ="text-[.5rem]">.................................</p>
-                        <div className="pl-[.3em] w-[6em]  text-sm md:text-md lg:text-lg">
+                        <p className="text-[.5rem]">
+                          .................................
+                        </p>
+                        <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
                           <span>${FeCommerce} USD</span>
                         </div>
                       </li>
 
-                      <li className="p-3 flex justify-between">
-                        <div className="w-[7em]">
-                          <span>Custom</span>
+                      <li className="p-1 md:p-3 lg:p-4 flex justify-between">
+                        <div className="w-[5.5em] md:w-[8rem]">
+                          <span className="text-[.7rem] md:tex-md lg:text-lg">Custom</span>
                         </div>
-                        <p className ="text-[.5rem]">.................................</p>
-                        <div className="pl-[.3em] w-[6em] text-sm md:text-md lg:text-lg">
+                        <p className="text-[.5rem]">
+                          .................................
+                        </p>
+                        <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
                           <span>Personalizado</span>
                         </div>
                       </li>
