@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer
       style={{ backgroundColor: "#1b2040" }}
-      className="flex justify-between p-3 w-full">
+      className="flex justify-between p-5 lg:p-1.5 w-full">
       <section>
         <ul className="text-white flex-start">
           <li className="p-2 ">
@@ -13,16 +13,16 @@ const Footer = () => {
               <h4>SouthSolutions</h4>
             </Link>
           </li>
-          <li className="text-sm p-2 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/contact">Contacto</Link>
           </li>
-          <li className="text-sm p-2 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Blog</a>
           </li>
-          <li className="text-sm p-2 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Trabaja con nosotros</a>
           </li>
-          <li className="text-sm p-2 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/"> Inicio </Link>
           </li>
         </ul>
