@@ -3,6 +3,7 @@
 import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 import { useState } from "react";
+import Link from "next/link";
 
 const Contact = () => {
   const [selected, setSelected] = useState("");
@@ -15,9 +16,11 @@ const Contact = () => {
 
   const landingUsd = 200;
 
-  const smallUsd = 500;
+  const smallUsd = 400;
 
-  const eCommerce = 1500;
+  const SeCommerce = 800;
+
+  const FeCommerce = 2000;
 
   // ------------------------------- change types -------------------------- //
 
@@ -34,16 +37,18 @@ const Contact = () => {
               <ul>
                 <li
                   onClick={() => handleOnClick("app")}
-                  className="px-2 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
-                  <button>Quiero mi App</button>
+                  className="px-1.5 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+                  <button className="text-sm">Quiero mi App</button>
                 </li>
                 <li
                   onClick={() => handleOnClick("web")}
-                  className="px-2 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
-                  <button>Quiero mi Web</button>
+                  className="px-1.5 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+                  <button className="text-sm">Quiero mi Web</button>
                 </li>
-                <li className="px-2 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
-                  <a href="mailto:southsolutions.tech@gmail.com">
+                <li className="px-1.5 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+                  <a
+                    className="text-sm"
+                    href="mailto:southsolutions.tech@gmail.com">
                     Quiero hacer una consulta
                   </a>
                 </li>
@@ -56,7 +61,7 @@ const Contact = () => {
             <h3 className="text-center text-2xl p-3 underline">
               Contactanos y elije tus servicios y productos
             </h3>
-            <h4 className="text-center text-2xl p-3">precios y servicios</h4>
+            <h4 className="text-center grid text-xl p-3">precios y servicios</h4>
             <div>
               {selected === "app" && (
                 <div className="bg-[#0f1026] text-white p-3 wrap">
@@ -64,19 +69,29 @@ const Contact = () => {
                   <div>
                     <ul>
                       <li className="py-3">
-                        [tipo de app]
-                        ....................................................................................
-                        precio
+                        <div className="flex justify-between">
+                          <div>
+                            <span>Turnos</span>
+                            <ul>
+                              <li className="text-sm">Ejepmlo:</li>
+                              <Link
+                                className="text-sm"
+                                href="https://play.google.com/store/apps/details?id=com.barber18273.barberApp">
+                                BarberApp
+                              </Link>
+                            </ul>
+                          </div>
+
+                          <p>..............................</p>
+                          <span>$ 350 USD</span>
+                        </div>
                       </li>
                       <li className="py-3">
-                        [tipo de app]
-                        ....................................................................................
-                        precio
-                      </li>
-                      <li className="py-3">
-                        [tipo de app]
-                        ....................................................................................
-                        precio
+                        <div className="flex justify-between">
+                          <span>custom</span>
+                          <p>..............................</p>
+                          <span>Personalizado</span>
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -98,9 +113,9 @@ const Contact = () => {
                             <li className="text-[.67em]">Hosting + NIC</li>
                           </ul>
                         </div>
-                        <p>...........................................</p>
+                        <p>.................................</p>
 
-                        <div className="pl-[.5em] w-[7em] flex">
+                        <div className="pl-[.5em] w-[6em] flex">
                           <span>${landingUsd} USD</span>
                           <div>
                             <ul className="text-[.67em]"></ul>
@@ -118,40 +133,53 @@ const Contact = () => {
                             </li>
                           </ul>
                         </div>
-                        <p>...........................................</p>
+                        <p>.................................</p>
 
-                        <div className="pl-[.5em] w-[7em]">
+                        <div className="pl-[.3em] w-[6em]">
                           <span>${smallUsd} USD</span>
                           <ul className="text-[.67em]"></ul>
                         </div>
                       </li>
                       <li className="p-3 flex justify-between">
                         <div className="w-[8em]">
-                          <span>E-Commerce</span>
-                          <ul>
-                            <li className="text-[.67em]">Hosting + NIC</li>
-                            <li className="text-[.67em]">
-                              Server + Base de Datos
-                            </li>
-                            <li className="text-[.67em]">Pasarela de Pagos</li>
-                            <li className="text-[.67em]">
-                              Dashboard Admin
-                            </li>
+                          <span>Sm E-Commerce</span>
+                          <ul className="text-[.67em]">
+                            <li className="text-[.  8em]">SPA</li>
+                            <li >Hosting + NIC</li>
+                            <li>Pasarela de Pagos</li>
+                            <li>Server + Base de Datos</li>
                           </ul>
                         </div>
-                        <p>...........................................</p>
-                        <div className="pl-[.5em] w-[7em]">
-                          <span>${eCommerce} USD</span>
+                        <p>.................................</p>
+                        <div className="pl-[.3em] w-[6em]">
+                          <span>${SeCommerce} USD</span>
                         </div>
                       </li>
+                      <li className="p-3 flex justify-between">
+                        <div className="w-[8em]">
+                          <span>Lg E-Commerce</span>
+                          <ul className="text-[.67em]">
+                            <li>Hosting + NIC</li>
+                            <li>Server + Base de Datos</li>
+                            <li>Pasarela de Pagos</li>
+                            <li>Notificaciones</li>
+                            <li>Dashboard Admin</li>
+                          </ul>
+                        </div>
+                        <p>.................................</p>
+                        <div className="pl-[.3em] w-[6em]">
+                          <span>${FeCommerce} USD</span>
+                        </div>
+                      </li>
+
                       <li className="p-3 flex justify-between">
                         <div className="w-[7em]">
                           <span>Custom</span>
                         </div>
-                        <p>...........................................</p>
-                        <div className="pl-[.5em] w-[7em]">
-                          <span>Personalizado</span> 
-                           </div>
+                        <p>.................................</p>
+                        <div className="pl-[.3em] w-[6em]">
+                          <span>Personalizado</span>
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -159,11 +187,11 @@ const Contact = () => {
               )}
 
               {selected === "" && (
-                <div className="bg-[#0f1026] text-white p-3">
-                  <h3 className="text-center">Elije tu servicio</h3>
-                  <p className="py-3">
+                <div className="bg-[#0f1026] text-white text-center">
+                  <h3>Elije tu servicio</h3>
+                  <p className="py-5">
                     {
-                      "<--------------------------------------------------------------------------"
+                      "<----------------------------------"
                     }
                   </p>
                 </div>
