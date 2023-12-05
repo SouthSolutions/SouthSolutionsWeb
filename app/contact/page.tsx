@@ -37,21 +37,21 @@ const Contact = () => {
               <ul>
                 <li
                   onClick={() => handleOnClick("app")}
-                  className="px-1.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
-                  <button className="sm:text-sm md:text-md lg:text-lg">
+                  className="px-1 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                  <button className="text-[.8rem] md:text-md lg:text-lg">
                     Quiero mi App
                   </button>
                 </li>
                 <li
                   onClick={() => handleOnClick("web")}
-                  className="px-1.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
-                  <button className="sm:text-sm md:text-md lg:text-lg">
+                  className="px-1 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                  <button className="text-[.8rem] md:text-md lg:text-lg">
                     Quiero mi Web
                   </button>
                 </li>
-                <li className="px-1.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                <li className="px-1 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
                   <a
-                    className="sm:text-sm md:text-md lg:text-lg "
+                    className="text-[.8rem] md:text-md lg:text-lg "
                     href="mailto:southsolutions.tech@gmail.com">
                     Quiero hacer una consulta
                   </a>
@@ -62,10 +62,10 @@ const Contact = () => {
         </section>
         <section className="flex p-2 mx-auto ">
           <div className="flex flex-col">
-            <h3 className="text-center  underline md:text-xl lg:text-2xl p-3">
+            <h3 className="text-center  underline text-sm md:text-xl lg:text-2xl p-3">
               Contactanos y elije tus servicios y productos
             </h3>
-            <h4 className="text-center grid text-xl p-3">
+            <h4 className="text-center text-sm md:text-xl lg:text-2xl p-3">
               precios y servicios
             </h4>
             <div>
@@ -88,15 +88,15 @@ const Contact = () => {
                             </ul>
                           </div>
 
-                          <p>..............................</p>
-                          <span>$ 350 USD</span>
+                          <p className="text-[.5rem]">.........................</p>
+                          <span className="text-[.8rem] md:text-md lgtext-lg">$ 350 USD</span>
                         </div>
                       </li>
                       <li className="py-3">
                         <div className="flex justify-between">
                           <span>custom</span>
-                          <p>..............................</p>
-                          <span>Personalizado</span>
+                          <p className="text-[.5rem]">.........................</p>
+                          <span className="text-[.8rem] md:text-md lgtext-lg">Personalizado</span>
                         </div>
                       </li>
                     </ul>
@@ -119,9 +119,9 @@ const Contact = () => {
                             <li className="text-[.67em]">Hosting + NIC</li>
                           </ul>
                         </div>
-                        <p>.................................</p>
+                        <p className="text-[.5rem]">.................................</p>
 
-                        <div className="pl-[.5em] w-[6em] flex">
+                        <div className="pl-[.5em] w-[6em] flex text-sm md:text-md lg:text-lg">
                           <span>${landingUsd} USD</span>
                           <div>
                             <ul className="text-[.67em]"></ul>
@@ -139,9 +139,9 @@ const Contact = () => {
                             </li>
                           </ul>
                         </div>
-                        <p>.................................</p>
+                        <p className ="text-[.5rem]">.................................</p>
 
-                        <div className="pl-[.3em] w-[6em]">
+                        <div className="pl-[.3em] w-[6em]  text-sm md:text-md lg:text-lg">
                           <span>${smallUsd} USD</span>
                           <ul className="text-[.67em]"></ul>
                         </div>
@@ -156,8 +156,8 @@ const Contact = () => {
                             <li>Server + Base de Datos</li>
                           </ul>
                         </div>
-                        <p>.................................</p>
-                        <div className="pl-[.3em] w-[6em]">
+                        <p className ="text-[.5rem]">.................................</p>
+                        <div className="pl-[.3em] w-[6em]  text-sm md:text-md lg:text-lg">
                           <span>${SeCommerce} USD</span>
                         </div>
                       </li>
@@ -172,8 +172,8 @@ const Contact = () => {
                             <li>Dashboard Admin</li>
                           </ul>
                         </div>
-                        <p>.................................</p>
-                        <div className="pl-[.3em] w-[6em]">
+                        <p className ="text-[.5rem]">.................................</p>
+                        <div className="pl-[.3em] w-[6em]  text-sm md:text-md lg:text-lg">
                           <span>${FeCommerce} USD</span>
                         </div>
                       </li>
@@ -182,8 +182,8 @@ const Contact = () => {
                         <div className="w-[7em]">
                           <span>Custom</span>
                         </div>
-                        <p>.................................</p>
-                        <div className="pl-[.3em] w-[6em]">
+                        <p className ="text-[.5rem]">.................................</p>
+                        <div className="pl-[.3em] w-[6em] text-sm md:text-md lg:text-lg">
                           <span>Personalizado</span>
                         </div>
                       </li>
