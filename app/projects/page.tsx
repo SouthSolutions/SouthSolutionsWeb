@@ -31,7 +31,7 @@ const Projects = () => {
       name: "World of Dogs",
       url: "https://world-of-dogs.netlify.app/",
       image: "https://world-of-dogs.netlify.app/assets/WoD-211776fb.png",
-      description: "WoD es una web donde el usuario podrá consultar la información detallada de diferentes razas de perros (imagen, temperamento, altura, peso, etc. además el usuario tendrá la posibilidad de cear su propio ejemplar si es que el mismo no se encuentra en la base de datos",
+      description: "WoD es una web donde el usuario podrá consultar la información detallada de diferentes razas de perros (imagen, temperamento, altura, peso, etc). además el usuario tendrá la posibilidad de cear su propio ejemplar si es que el mismo no se encuentra en la base de datos",
       platform: "web",
     },
   ];
