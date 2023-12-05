@@ -22,9 +22,9 @@ export default function Home() {
         <hr />
 
         <section>
-          <h3 className="text-center mt-10 text-3xl underline">
+          <h2 className="text-center mt-10 text-3xl underline">
             ¿Quienes somos?
-          </h3>
+          </h2>
 
           <article className="text-center p-5">
             Somos un grupo de desarrolladores web y mobile enfocados en agregar
@@ -35,9 +35,9 @@ export default function Home() {
         </section>
 
         <section className="mx-20 mt-20">
-          <h3 className="text-center  text-3xl underline ">
+          <h2 className="text-center  text-3xl underline ">
             ¿Por qué tener tu propia app?
-          </h3>
+          </h2>
           <div className="flex justify-between p-4 items-center flex-col md:flex-row">
             <article className="text-center p-6 ">
               En un mundo cada vez más digital, tener una aplicación móvil para
@@ -61,9 +61,9 @@ export default function Home() {
         </section>
 
         <section className="mx-20">
-          <h3 className="text-center mt-10 text-3xl underline">
+          <h2 className="text-center mt-10 text-3xl underline">
             ¿Por qué tener tu propia web?
-          </h3>
+          </h2>
           <div className="flex justify-between p-4 items-center flex-col md:flex-row">
             <Image
               src={pc}
