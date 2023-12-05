@@ -32,22 +32,26 @@ const Contact = () => {
       <div className="m-5"></div>
       <main className="flex justify-between ">
         <section className="flex">
-          <aside className="p-1 bg-[linear-gradient(-120deg,white,_#edf5f7_,_#edf5f7_,_#2babae_,_#0f1026_)] h-auto">
-            <div className="p-4">
+          <aside className=" p-1 bg-[linear-gradient(-120deg,white,_#edf5f7_,_#edf5f7_,_#2babae_,_#0f1026_)] h-auto  grid items-center">
+            <div className="p-4 grid items-auto justify-center">
               <ul>
                 <li
                   onClick={() => handleOnClick("app")}
-                  className="px-1.5 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
-                  <button className="text-sm">Quiero mi App</button>
+                  className="px-1.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                  <button className="sm:text-sm md:text-md lg:text-lg">
+                    Quiero mi App
+                  </button>
                 </li>
                 <li
                   onClick={() => handleOnClick("web")}
-                  className="px-1.5 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
-                  <button className="text-sm">Quiero mi Web</button>
+                  className="px-1.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
+                  <button className="sm:text-sm md:text-md lg:text-lg">
+                    Quiero mi Web
+                  </button>
                 </li>
-                <li className="px-1.5 py-3 my-4 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+                <li className="px-1.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
                   <a
-                    className="text-sm"
+                    className="sm:text-sm md:text-md lg:text-lg "
                     href="mailto:southsolutions.tech@gmail.com">
                     Quiero hacer una consulta
                   </a>
@@ -58,13 +62,15 @@ const Contact = () => {
         </section>
         <section className="flex p-2 mx-auto ">
           <div className="flex flex-col">
-            <h3 className="text-center text-2xl p-3 underline">
+            <h3 className="text-center  underline md:text-xl lg:text-2xl p-3">
               Contactanos y elije tus servicios y productos
             </h3>
-            <h4 className="text-center grid text-xl p-3">precios y servicios</h4>
+            <h4 className="text-center grid text-xl p-3">
+              precios y servicios
+            </h4>
             <div>
               {selected === "app" && (
-                <div className="bg-[#0f1026] text-white p-3 wrap">
+                <div className="bg-[#0f1026] text-white p-3 sm: py-[6.4rem]">
                   <h3 className="text-center">Elije tu App</h3>
                   <div>
                     <ul>
@@ -145,7 +151,7 @@ const Contact = () => {
                           <span>Sm E-Commerce</span>
                           <ul className="text-[.67em]">
                             <li className="text-[.  8em]">SPA</li>
-                            <li >Hosting + NIC</li>
+                            <li>Hosting + NIC</li>
                             <li>Pasarela de Pagos</li>
                             <li>Server + Base de Datos</li>
                           </ul>
@@ -189,10 +195,8 @@ const Contact = () => {
               {selected === "" && (
                 <div className="bg-[#0f1026] text-white text-center">
                   <h3>Elije tu servicio</h3>
-                  <p className="py-5">
-                    {
-                      "<----------------------------------"
-                    }
+                  <p className="sm: py-[10rem] md:py-30 lg:py-10">
+                    {"<----------------------------------"}
                   </p>
                 </div>
               )}
@@ -200,7 +204,7 @@ const Contact = () => {
           </div>
         </section>
       </main>
-      <div className="m-5"></div>
+      <div className="sm: m-[2rem] md:m-[6rem] lg:m-8"></div>
       <footer className="w-full">
         <Footer />
       </footer>
