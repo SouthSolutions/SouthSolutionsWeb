@@ -7,29 +7,29 @@ const Footer = () => {
       style={{ backgroundColor: "#1b2040" }}
       className="flex justify-between p-5 lg:p-1.5 w-full">
       <section>
-        <ul className="text-white flex-start">
-          <li className="p-2 ">
+        <ul className="text-white flex-start ">
+          <li className="p-2  ">
             <Link href="/">
               <h4>SouthSolutions</h4>
             </Link>
           </li>
-          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/contact">Contacto</Link>
           </li>
-          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Blog</a>
           </li>
-          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Trabaja con nosotros</a>
           </li>
-          <li className="text-sm p-2 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/"> Inicio </Link>
           </li>
         </ul>
       </section>
       <section>
         <ul className="text-white flex-end">
-          <li className="p-3">
+          <li className="p-1.5 lg:p-3">
             <figure>
               <Link
                 href="https://www.instagram.com/southsolutions.tech/"
@@ -42,10 +42,10 @@ const Footer = () => {
                   className="flex items-center"
                 />
               </Link>
-              <figcaption className="text-center">Instagram</figcaption>
+              <figcaption className="text-center text-[.7rem] lg:text-[.9rem]">Instagram</figcaption>
             </figure>
           </li>
-          <li className="p-3">
+          <li className="p-1.5 lg:p-3">
             <figure>
               <a
                 className="flex justify-center p-1"
@@ -57,7 +57,7 @@ const Footer = () => {
                   height={25}
                 />
               </a>
-              <figcaption className="text-center">E-mail</figcaption>
+              <figcaption className="text-center text-[.7rem] lg:text-[.9rem]">E-mail</figcaption>
             </figure>
           </li>
         </ul>
