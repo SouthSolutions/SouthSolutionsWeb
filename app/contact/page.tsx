@@ -29,6 +29,8 @@ const Contact = () => {
       <nav>
         <Nav />
       </nav>
+      <hr />
+    
       <div className="m-5"></div>
       <main className="flex justify-between ">
         <section className="flex">
@@ -62,8 +64,9 @@ const Contact = () => {
         </section>
         <section className="flex p-2 mx-auto ">
           <div className="flex flex-col">
-            <h3 className="text-center  underline text-sm md:text-xl lg:text-2xl p-3">
+            <h3 className="text-center  text-sm md:text-xl lg:text-2xl p-3">
               Contactanos y elije tus servicios y productos
+              <hr />
             </h3>
             <h4 className="text-center text-sm md:text-xl lg:text-2xl p-3">
               precios y servicios
@@ -77,32 +80,32 @@ const Contact = () => {
                       <li className="py-3">
                         <div className="flex justify-between">
                           <div>
-                            <span>Turnos</span>
+                            <span className="text-sm md:text-md lg:text-[1.1rem]">Turnos</span>
                             <ul>
-                              <li className="text-sm">Ejepmlo:</li>
+                              <li className="text-sm md:text-md lg:text-md">Ejepmlo:</li>
                               <Link
-                                className="text-sm"
+                                className="text-[.8rem] lg:text-sm"
                                 href="https://play.google.com/store/apps/details?id=com.barber18273.barberApp">
                                 BarberApp
                               </Link>
                             </ul>
                           </div>
 
-                          <p className="text-[.5rem]">
+                          <p className="text-[.5rem] md:text-dm lg:text-lg">
                             .........................
                           </p>
-                          <span className="text-[.8rem] md:text-md lgtext-lg">
+                          <span className="text-[.8rem] md:text-md lg:text-[1.1rem]">
                             $ 350 USD
                           </span>
                         </div>
                       </li>
                       <li className="py-3">
                         <div className="flex justify-between">
-                          <span>custom</span>
-                          <p className="text-[.5rem]">
+                          <span className=" text-sm md:text-md lg:text-[1.1rem]">custom</span>
+                          <p className="text-[.5rem] md:text-md lg:text-lg">
                             .........................
                           </p>
-                          <span className="text-[.8rem] md:text-md lgtext-lg">
+                          <span className="text-[.8rem] md:text-md lg:text-lg">
                             Personalizado
                           </span>
                         </div>
@@ -120,7 +123,7 @@ const Contact = () => {
                   <div>
                     <ul>
                       <li className=" p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem]">
+                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
                           <span className="text-[.7rem] md:tex-md lg:text-lg">
                             Landing Page
                           </span>
@@ -133,7 +136,7 @@ const Contact = () => {
                             </li>
                           </ul>
                         </div>
-                        <p className="text-[.5rem]">
+                        <p className="text-[.3rem] md:text-md lg:text-lg">
                           .................................
                         </p>
 
@@ -142,7 +145,7 @@ const Contact = () => {
                         </div>
                       </li>
                       <li className="p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem]">
+                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
                           <span className="text-[.7rem] md:tex-md lg:text-lg">Small Page</span>
                           <ul>
                             <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">2 - 5 rutas
@@ -151,7 +154,7 @@ const Contact = () => {
                             <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">server + base de datos</li>
                           </ul>
                         </div>
-                        <p className="text-[.5rem]">
+                        <p className="text-[.3rem] md:text-md lg:text-lg">
                           .................................
                         </p>
 
@@ -161,8 +164,8 @@ const Contact = () => {
                         </div>
                       </li>
                       <li className="p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem]">
-                          <span className="text-[.7rem] md:tex-md lg:text-lg">Sm E-Commerce</span>
+                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
+                          <span className="text-[.68rem] md:tex-md lg:text-lg">Sm E-Commerce</span>
                           <ul> 
                             <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">SPA</li>
                             <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Hosting + NIC</li>
@@ -170,7 +173,7 @@ const Contact = () => {
                             <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Server + Base de Datos</li>
                           </ul>
                         </div>
-                        <p className="text-[.5rem]">
+                        <p className="text-[.3rem] md:text-md lg:text-lg">
                           .................................
                         </p>
                         <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
@@ -178,7 +181,7 @@ const Contact = () => {
                         </div>
                       </li>
                       <li className="p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem]">
+                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
                           <span className="text-[.7rem] md:tex-md lg:text-lg">Lg E-Commerce</span>
                           <ul>
                             <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">Full</li>
@@ -189,7 +192,7 @@ const Contact = () => {
                             <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">Dashboard Admin</li>
                           </ul>
                         </div>
-                        <p className="text-[.5rem]">
+                        <p className="text-[.3rem] md:text-md lg:text-lg">
                           .................................
                         </p>
                         <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
@@ -198,10 +201,10 @@ const Contact = () => {
                       </li>
 
                       <li className="p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem]">
+                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
                           <span className="text-[.7rem] md:tex-md lg:text-lg">Custom</span>
                         </div>
-                        <p className="text-[.5rem]">
+                        <p className="text-[.3rem] md:text-md lg:text-lg">
                           .................................
                         </p>
                         <div className="pl-[.1rem] w-[4.4rem] text-[.7rem] md:text-md md:w-[6rem] lg:text-lg lg:w-[8rem]">
@@ -216,7 +219,7 @@ const Contact = () => {
               {selected === "" && (
                 <div className="bg-[#0f1026] text-white text-center">
                   <h3>Elije tu servicio</h3>
-                  <p className="sm: py-[10rem] md:py-30 lg:py-10">
+                  <p className=" text-[.75rem] py-[5rem] md:py-30 md:text-md lg:py-10 lg:text-lg">
                     {"<----------------------------------"}
                   </p>
                 </div>
@@ -225,7 +228,7 @@ const Contact = () => {
           </div>
         </section>
       </main>
-      <div className="sm: m-[2rem] md:m-[6rem] lg:m-8"></div>
+      <div className="m-[2rem] md:m-[6rem] lg:m-8"></div>
       <footer className="w-full">
         <Footer />
       </footer>
