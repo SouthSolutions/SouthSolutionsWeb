@@ -40,20 +40,20 @@ const Contact = () => {
                 <li
                   onClick={() => handleOnClick("app")}
                   className="px-.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
-                  <button className="text-[.7rem] md:text-md lg:text-lg">
+                  <button className="text-[.8rem] md:text-md lg:text-lg">
                     Quiero mi App
                   </button>
                 </li>
                 <li
                   onClick={() => handleOnClick("web")}
                   className="px-.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
-                  <button className="text-[.7rem] md:text-md lg:text-lg">
+                  <button className="text-[.8rem] md:text-md lg:text-lg">
                     Quiero mi Web
                   </button>
                 </li>
                 <li className="px-.5 py-3 my-5 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200 text-center">
                   <a
-                    className="text-[.6rem] md:text-md lg:text-lg lg:p-2 "
+                    className="text-[.7rem] md:text-md lg:text-lg lg:p-2 "
                     href="mailto:southsolutions.tech@gmail.com">
                     Quiero hacer una consulta
                   </a>
@@ -73,8 +73,8 @@ const Contact = () => {
             </h4>
             <div>
               {selected === "app" && (
-                <div className="bg-[#0f1026] text-white p-3 sm: py-[6.4rem]">
-                  <h3 className="text-center">Elije tu App</h3>
+                <div className="bg-[#0f1026] text-white p-3 py-6">
+                  <h3 className="text-center p-2 pb-5">Elije tu App</h3>
                   <div>
                     <ul>
                       <li className="py-3">
@@ -118,7 +118,7 @@ const Contact = () => {
               {selected === "web" && (
                 <div className="bg-[#0f1026] text-white p-1 wrap">
                   <div>
-                    <h3 className="text-center">Elije tu Web</h3>
+                    <h3 className="text-center p-2 md:p-3 lg:p-4">Elije tu Web</h3>
                   </div>
                   <div>
                     <ul>
@@ -218,8 +218,8 @@ const Contact = () => {
 
               {selected === "" && (
                 <div className="bg-[#0f1026] text-white text-center">
-                  <h3>Elije tu servicio</h3>
-                  <p className=" text-[.75rem] py-[5rem] md:py-30 md:text-md lg:py-10 lg:text-lg">
+                  <h3 className="p-2 md:p-3 lg:p-4">Elije tu servicio</h3>
+                  <p className=" text-[.75rem] py-[6rem] md:py-30 md:text-md lg:py-10 lg:text-lg">
                     {"<----------------------------------"}
                   </p>
                 </div>
@@ -228,8 +228,8 @@ const Contact = () => {
           </div>
         </section>
       </main>
-      <div className="m-[5rem] md:m-[10rem] lg:m-[15rem]"></div>
-      <footer className="w-full">
+      <div className="m-[5rem] md:m-[8rem] lg:m-[2.35rem]"></div>
+      <footer>
         <Footer />
       </footer>
     </>
