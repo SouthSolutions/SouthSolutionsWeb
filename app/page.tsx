@@ -64,11 +64,11 @@ export default function Home() {
           <h2 className="text-center mt-10 text-2xl underline md:text-2xl lg:text-3xl">
             ¿Por qué tener tu propia web?
           </h2>
-          <div className="flex justify-between p-2 items-center flex-col md:flex-row">
+          <div className="flex justify-between p-3 items-center flex-col md:flex-row">
             <Image
               src={pc}
               alt="web"
-              width={200}
+              width={250}
               height={100}
               style={{ borderRadius: 99999 }}
             />
