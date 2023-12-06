@@ -225,11 +225,11 @@ const Contact = () => {
                 </div>
               )}
             </div>
+            <p className="text-center p-2"> Todos los servicios se abonan en tu moneda local</p>
           </div>
         </section>
       </main>
-      <div className="m-[5rem] md:m-[8rem] lg:m-[2.35rem]"></div>
-      <footer>
+      <footer className="fixed bottom-0 w-full">
         <Footer />
       </footer>
     </>
