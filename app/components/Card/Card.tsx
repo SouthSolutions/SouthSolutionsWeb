@@ -19,7 +19,7 @@ const Card: FC<CardProps> = ({ image, description, name, url, platform }) => {
   const handleHover = () => {
     if (isHovered) {
       return (
-        <div className="group transition-all duration-[1.3s] text-[.6rem] md:text-md lg:text-[1rem]">
+        <div className="group transition-all duration-[1.3s] text-[.75rem] md:text-md lg:text-[1rem]">
           <p>{description}</p>
         </div>
       );
@@ -34,7 +34,7 @@ const Card: FC<CardProps> = ({ image, description, name, url, platform }) => {
           className="  group group-hover:p-[2rem] transition-all duration-[1s] ease-in-out">
           <article className="border rounded-[3em] text-center  ease-in-out mx-auto w-[8rem] transition-all duration-[1s] md:w-[10rem] lg:w-[13rem]">
             <figure title={description} className="mx-auto">
-              <figcaption className=" text-[.76rem] p-3 md:text-[.9rem] lg:text-lg">{name}</figcaption>
+              <figcaption className=" text-[.8rem] p-3 md:text-[.9rem] lg:text-lg">{name}</figcaption>
               <Image
                 className="rounded-[3em] mx-auto p-1 group-hover:p-[1.5em] transition-all duration-[1s] ease-in-out md:p-3 lg:p-5"
                 src={image}
