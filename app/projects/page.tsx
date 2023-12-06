@@ -14,7 +14,7 @@ const Projects = () => {
       platform: "web",
     },
     {
-      name: "BarberApp Admin",
+      name: "Barber Admin",
       url: "https://play.google.com/store/apps/details?id=com.barber18273.barbercli",
       image:
         "https://play-lh.googleusercontent.com/65xtwAMIbshCBa7-Lmw5RAMeGTxcEkMO27n42bw8dGKpM4xGC6xZw517RHmosRY-V7I=w240-h480-rw",
@@ -69,7 +69,7 @@ const Projects = () => {
         </h1>
       </div>
       <hr />
-      <div className="flex justify-between p-3 m-3 flex-wrap md:flex-row md:p-6 md:m-7">
+      <div className="flex justify-between p-3 m-3 flex-wrap md:flex-row md:p-6 md:m-7 ">
         {projectsMap}
       </div>
 
