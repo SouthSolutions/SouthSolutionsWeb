@@ -14,7 +14,7 @@ const Nav = () => {
             className="m-1 rounded-[50%] bg-[#edf5f7]  "
             src={SouthSolutions5}
             alt="SouthSolutionsLogo"
-            width={60}
+            width={45}
             height={10}
           />
         </Link>
@@ -23,20 +23,20 @@ const Nav = () => {
             className="mx-2 rounded-[1em] p-2 w-full bg-[#edf5f7]  "
             src={SouthSolutionstext}
             alt="SouthSolutionsName"
-            height={100}
-            width={300}
+            height={90}
+            width={200}
           />
         </Link>
       </div>
 
       <div className="flex flex-row items-start" style={{ marginTop: "10px" }}>
         <Link
-          className="text-center ml-[1rem] lg:mx-2 text-[.6rem] md:text-[.9rem] lg:text-[1.1rem] p-2  hover:bg-[#2babae] hover:border rounded-[3em] hover:transition-all duration-300 ease-in-out"
+          className="text-center ml-[1rem] lg:mx-2 text-[.7rem] md:text-[.9rem] lg:text-[1.1rem] p-2  hover:bg-[#2babae] hover:border rounded-[3em] hover:transition-all duration-300 ease-in-out"
           href="/projects">
           Nuestros Proyectos
         </Link>
         <Link
-          className="text-center mx-.6 lg:mx-2 text-[.6rem] md:text-[.9rem] lg:text-[1.1rem] p-2 hover:bg-[#2babae] hover:transition-all duration-300 ease-in-out hover:border rounded-[3em]"
+          className="text-center mx-.6 lg:mx-2 text-[.7rem] md:text-[.9rem] lg:text-[1.1rem] p-2 hover:bg-[#2babae] hover:transition-all duration-300 ease-in-out hover:border rounded-[3em]"
           href="/contact">
           Contactanos
         </Link>
