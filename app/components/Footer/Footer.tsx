@@ -58,7 +58,7 @@ const Footer = () => {
                 />
               </a>
               <figcaption className="text-center text-[.7rem] lg:text-[.9rem]">E-mail</figcaption>
-              <p>sothsolutions.tech@gmail.com</p>
+              <p className="text-center text-[.6rem] lg:text-[.8rem]">sothsolutions.tech@gmail.com</p>
             </figure>
           </li>
         </ul>
