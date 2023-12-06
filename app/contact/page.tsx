@@ -132,15 +132,15 @@ const Contact = () => {
                   <div>
                     <ul>
                       <li className=" p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
-                          <span className="text-[.7rem] md:tex-md lg:text-lg">
+                        <div className="w-[7em] md:w-[8rem] lg:w-[10rem]">
+                          <span className="text-[.8rem] md:text-[.9rem] lg:text-[1rem">
                             Landing Page
                           </span>
                           <ul>
-                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
+                            <li className="text-[.7em] md:text-[.8rem] lg:text-[.9rem]">
                               Página Simple
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
                               Hosting + NIC
                             </li>
                           </ul>
@@ -154,7 +154,7 @@ const Contact = () => {
                         </div>
                       </li>
                       <li className="p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
+                        <div className="w-[7em] md:w-[8rem] lg:w-[10rem]">
                           <span className="text-[.8rem] md:tex-md lg:text-lg">
                             Small Page
                           </span>
@@ -162,10 +162,10 @@ const Contact = () => {
                             <li className="text-[.7em] md:text-[.9rem] lg:text-[1rem]">
                               2 - 5 rutas
                             </li>
-                            <li className="text-[.6em] md:text-[.8rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.8rem] lg:text-[.9rem]">
                               Hosting + NIC
                             </li>
-                            <li className="text-[.6em] md:text-[.8rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.8rem] lg:text-[.9rem]">
                               server + base de datos
                             </li>
                           </ul>
@@ -180,21 +180,21 @@ const Contact = () => {
                         </div>
                       </li>
                       <li className="p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
-                          <span className="text-[.68rem] md:tex-md lg:text-lg">
+                        <div className="w-[7em] md:w-[8rem] lg:w-[10rem]">
+                          <span className="text-[.8rem] md:tex-[.9rem] lg:text-[1rem]">
                             Sm E-Commerce
                           </span>
                           <ul>
-                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
+                            <li className="text-[.7em] md:text-[.8rem] lg:text-[.9rem]">
                               SPA
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
                               Hosting + NIC
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8em]">
                               Pasarela de Pagos
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
                               Server + Base de Datos
                             </li>
                           </ul>
@@ -207,27 +207,27 @@ const Contact = () => {
                         </div>
                       </li>
                       <li className="p-1 md:p-3 lg:p-4 flex justify-between">
-                        <div className="w-[5.5em] md:w-[8rem] lg:w-[10rem]">
-                          <span className="text-[.7rem] md:tex-md lg:text-lg">
+                        <div className="w-[7em] md:w-[8rem] lg:w-[10rem]">
+                          <span className="text-[.8rem] md:tex-[.9rem] lg:text-[1rem]">
                             Lg E-Commerce
                           </span>
                           <ul>
-                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
+                            <li className="text-[.7em] md:text-[.8rem] lg:text-[.9em]">
                               Full
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
                               Hosting + NIC
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
                               Server + Base de Datos
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
                               Pasarela de Pagos
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.8rem]">
                               Notificaciones
                             </li>
-                            <li className="text-[.5em] md:text-[.6rem] lg:text-[.7rem]">
+                            <li className="text-[.6em] md:text-[.7rem] lg:text-[.7rem]">
                               Dashboard Admin
                             </li>
                           </ul>
