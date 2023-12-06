@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer
+    <div
       style={{ backgroundColor: "#1b2040" }}
       className="flex justify-between p-5 lg:p-1.5 w-full">
       <section>
@@ -58,11 +58,12 @@ const Footer = () => {
                 />
               </a>
               <figcaption className="text-center text-[.7rem] lg:text-[.9rem]">E-mail</figcaption>
+              <p>sothsolutions.tech@gmail.com</p>
             </figure>
           </li>
         </ul>
       </section>
-    </footer>
+    </div>
   );
 };
 
