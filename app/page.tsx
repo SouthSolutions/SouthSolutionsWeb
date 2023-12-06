@@ -26,7 +26,7 @@ export default function Home() {
             ¿Quienes somos?
           </h2>
 
-          <article className="text-center p-1 md:p-2 lg:p-5">
+          <article className="text-center p-1 pt-3 md:p-2 lg:p-5">
             Somos un grupo de desarrolladores web y mobile enfocados en agregar
             valor a cada producto, con responsabilidad y dedicación para
             satisfacer las necesidades de nuestros clientes. creamos productos
@@ -38,7 +38,7 @@ export default function Home() {
           <h2 className="text-center  text-2xl underline md:text-3xl lg:text-3xl">
             ¿Por qué tener tu propia app?
           </h2>
-          <div className="flex justify-between p-3 items-center flex-col md:flex-row">
+          <div className="flex justify-between p-1 pt-3 items-center flex-col md:flex-row">
             <article className="text-center p-1 md:p-3 lg:p-5 ">
               En un mundo cada vez más digital, tener una aplicación móvil para
               tu negocio es esencial. Una aplicación móvil te permite llegar a
@@ -64,7 +64,7 @@ export default function Home() {
           <h2 className="text-center mt-10 text-2xl underline md:text-2xl lg:text-3xl">
             ¿Por qué tener tu propia web?
           </h2>
-          <div className="flex justify-between p-3 items-center flex-col md:flex-row">
+          <div className="flex justify-between p-1 pt-4 items-center flex-col md:flex-row">
             <Image
               src={pc}
               alt="web"
