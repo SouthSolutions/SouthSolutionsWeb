@@ -219,7 +219,7 @@ const Contact = () => {
               {selected === "" && (
                 <div className="bg-[#0f1026] text-white text-center">
                   <h3 className="p-2 md:p-3 lg:p-4">Elije tu servicio</h3>
-                  <p className=" text-[.75rem] py-[6rem] md:py-30 md:text-md lg:py-10 lg:text-lg">
+                  <p className=" text-[.75rem] py-[7rem] md:py-40 md:text-md lg:py-10 lg:text-lg">
                     {"<----------------------------------"}
                   </p>
                 </div>
