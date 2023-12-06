@@ -22,11 +22,11 @@ export default function Home() {
         <hr />
 
         <section>
-          <h2 className="text-center mt-10 text-3xl underline">
+          <h2 className="text-center mt-20 text-2xl underline md:text-3xl lg:text-3xl">
             ¿Quienes somos?
           </h2>
 
-          <article className="text-center p-5">
+          <article className="text-center p-1 md:p-2 lg:p-5">
             Somos un grupo de desarrolladores web y mobile enfocados en agregar
             valor a cada producto, con responsabilidad y dedicación para
             satisfacer las necesidades de nuestros clientes. creamos productos
@@ -34,12 +34,12 @@ export default function Home() {
           </article>
         </section>
 
-        <section className="mx-20 mt-20">
-          <h2 className="text-center  text-3xl underline ">
+        <section className=" mx-0 mt-20 md:mx-15 md:mt-15 lg:mx-20 lg:mt-20">
+          <h2 className="text-center  text-2xl underline md:text-3xl lg:text-3xl">
             ¿Por qué tener tu propia app?
           </h2>
-          <div className="flex justify-between p-4 items-center flex-col md:flex-row">
-            <article className="text-center p-6 ">
+          <div className="flex justify-between p-3 items-center flex-col md:flex-row">
+            <article className="text-center p-1 md:p-3 lg:p-5 ">
               En un mundo cada vez más digital, tener una aplicación móvil para
               tu negocio es esencial. Una aplicación móvil te permite llegar a
               los usuarios dondequiera que estén, conectando con tu público de
@@ -60,11 +60,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-20">
-          <h2 className="text-center mt-10 text-3xl underline">
+        <section className="mx-[0px] md:mx-15 lg:mx-20">
+          <h2 className="text-center mt-10 text-2xl underline md:text-2xl lg:text-3xl">
             ¿Por qué tener tu propia web?
           </h2>
-          <div className="flex justify-between p-4 items-center flex-col md:flex-row">
+          <div className="flex justify-between p-2 items-center flex-col md:flex-row">
             <Image
               src={pc}
               alt="web"
@@ -72,7 +72,7 @@ export default function Home() {
               height={100}
               style={{ borderRadius: 99999 }}
             />
-            <article className="text-center p-6">
+            <article className="text-center p-1 md.p-3 lg:p-5">
               En la era digital, tener una página web es como tener una tarjeta
               de presentación para el mundo. Una página web bien diseñada puede
               ser la diferencia entre un cliente potencial y un cliente perdido.
