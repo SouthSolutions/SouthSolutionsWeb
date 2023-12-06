@@ -77,7 +77,7 @@ const Contact = () => {
                   <h3 className="text-center p-2 pb-5">Elije tu App</h3>
                   <div>
                     <ul>
-                      <li className="py-3">
+                      <li className="py-6">
                         <div className="flex justify-between">
                           <div>
                             <span className="text-sm md:text-md lg:text-[1.1rem]">Turnos</span>
