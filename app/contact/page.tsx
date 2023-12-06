@@ -228,7 +228,7 @@ const Contact = () => {
           </div>
         </section>
       </main>
-      <div className="m-[2rem] md:m-[6rem] lg:m-8"></div>
+      <div className="m-[5rem] md:m-[10rem] lg:m-[15rem]"></div>
       <footer className="w-full">
         <Footer />
       </footer>
