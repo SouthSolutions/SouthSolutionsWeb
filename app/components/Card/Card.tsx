@@ -34,9 +34,9 @@ const Card: FC<CardProps> = ({ image, description, name, url, platform }) => {
           className="  group group-hover:p-[2rem] transition-all duration-[1s] ease-in-out">
           <article className="border rounded-[3em] text-center  ease-in-out mx-auto w-[8rem] transition-all duration-[1s] md:w-[10rem] lg:w-[13rem]">
             <figure title={description} className="mx-auto">
-              <figcaption className=" text-[.76rem] md:text-[.9rem] lg:text-lg">{name}</figcaption>
+              <figcaption className=" text-[.76rem] p-3 md:text-[.9rem] lg:text-lg">{name}</figcaption>
               <Image
-                className="rounded-[3em] mx-auto p-2 group-hover:p-[1.5em] transition-all duration-[1s] ease-in-out md:p-3 lg:p-5"
+                className="rounded-[3em] mx-auto p-1 group-hover:p-[1.5em] transition-all duration-[1s] ease-in-out md:p-3 lg:p-5"
                 src={image}
                 alt={name}
                 height={160}
