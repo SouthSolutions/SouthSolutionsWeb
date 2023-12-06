@@ -64,15 +64,18 @@ const Projects = () => {
       <hr />
 
       <div className="flex justify-center">
-        <h1 className="text-2xl p-3">
+        <h1 className="text-2xl p-3 text-center md:p-5 lg:p-7">
           Conoce los proyectos en los que trabajan nuestros desarrolladores
         </h1>
       </div>
       <hr />
-      <div className="flex justify-between p-5 m-6 flex-wrap md:flex-row">
+      <div className="flex justify-between p-3 m-3 flex-wrap md:flex-row md:p-6 md:m-7">
         {projectsMap}
       </div>
+
+      <footer className="pt-[6rem]">
       <Footer />
+      </footer>
     </section>
   );
 };
