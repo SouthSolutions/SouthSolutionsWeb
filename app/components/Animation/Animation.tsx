@@ -21,7 +21,7 @@ export default function Animation() {
   return (
     <section>
       <div
-        className="py-[6.5rem] md:p-30 lg:p-40 flex justify-center m-3 bg-[linear-gradient(40deg,_#2babae_,_#edf5f7_,_#0f1026_,_#1b2040_,_#0f1026_,_#edf5f7_,_#2babae_)]"
+        className="py-[6.5rem] md:py-30 lg:p-40 flex justify-center m-3 bg-[linear-gradient(40deg,_#2babae_,_#edf5f7_,_#0f1026_,_#1b2040_,_#0f1026_,_#edf5f7_,_#2babae_)]"
         style={{ backgroundColor: "#edf5f7" }}>
         <h1
           style={{ fontFamily: "monospace" }}
