@@ -18,7 +18,7 @@ const Contact = () => {
           <Nav />
         </nav>
         <h1 className="text-center text-3xl p-6">Contactanos!</h1>
-        <div className="flex justify-between items-center w-[40rem] m-auto p-1 md:p-3 lg:p-5">
+        <div className="flex justify-between flex-wrap items-center w-[40rem] m-auto p-1 md:p-3 lg:p-5">
           <Link href="https://wa.me/+5688575861?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta">
             <figure>
               <Image
