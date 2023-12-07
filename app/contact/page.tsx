@@ -18,7 +18,7 @@ const Contact = () => {
           <Nav />
         </nav>
         <h1 className="text-center text-3xl p-6">Contactanos!</h1>
-        <div className="flex justify-between items-center w-[40rem] m-auto p-5">
+        <div className="flex justify-between items-center w-[40rem] m-auto p-1 md:p-3 lg:p-5">
           <Link href="https://wa.me/+5688575861?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta">
             <figure>
               <Image
@@ -55,7 +55,7 @@ const Contact = () => {
           </Link>
           <Link href="mailto:southsolutions@gmail.com?subject=Consulta-contacto&body=Hola">
             <figure>
-              <Image src={mailImage} alt="E-mail" width={150} height={150} className="p-4" />
+              <Image src={mailImage} alt="E-mail" width={150} height={150} className="p-[1.2rem]" />
 
               <figcaption className="text-center">SouthSolutions.tech</figcaption>
             </figure>
