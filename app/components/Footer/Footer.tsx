@@ -24,6 +24,9 @@ const Footer = () => {
           </li>
           <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/"> Inicio </Link>
+            <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+              <Link href="/projects">Proyectos</Link>
+            </li>
           </li>
         </ul>
       </section>
