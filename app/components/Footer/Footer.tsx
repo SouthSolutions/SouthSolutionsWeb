@@ -13,18 +13,18 @@ const Footer = () => {
               <h4>SouthSolutions</h4>
             </Link>
           </li>
-          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/contact">Contacto</Link>
           </li>
-          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Blog</a>
           </li>
-          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Trabaja con nosotros</a>
           </li>
-          <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/"> Inicio </Link>
-            <li className="text-[.6rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+            <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
               <Link href="/projects">Proyectos</Link>
             </li>
           </li>
@@ -60,8 +60,8 @@ const Footer = () => {
                   height={25}
                 />
               </a>
-              <figcaption className="text-center text-[.7rem] lg:text-[.9rem]">E-mail</figcaption>
-              <p className="text-center text-[.6rem] lg:text-[.8rem]">sothsolutions.tech@gmail.com</p>
+              <figcaption className="text-center text-[.8rem] lg:text-[.9rem]">E-mail</figcaption>
+              <p className="text-center text-[.7rem] lg:text-[.8rem]">sothsolutions.tech@gmail.com</p>
             </figure>
           </li>
         </ul>
