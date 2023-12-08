@@ -39,7 +39,7 @@ const Nav = () => {
           />
         </Link>
       </div>
-      <div className="relative  p-1 md:p-3 lg:p- 4 cursor-pointer">
+      <div className="relative ml-3 pl-2 md:p-3 lg:p-4 cursor-pointer">
         <HamburgerMenu onClick={hanleToggle} />
         {isOpen && (
           <div className="flex flex-col absolute top-14 right-0 w-48 transition duration-300 ease-in-out p-2 rounded-b-[2rem] backdrop-blur-md bg-[linear-gradient(_#edf5f7_,_#2babae_)] ">
