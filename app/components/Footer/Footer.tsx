@@ -24,9 +24,9 @@ const Footer = () => {
           </li>
           <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/"> Inicio </Link>
-            <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
-              <Link href="/projects">Proyectos</Link>
-            </li>
+          </li>
+          <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+            <Link href="/projects">Proyectos</Link>
           </li>
         </ul>
       </section>
@@ -45,7 +45,9 @@ const Footer = () => {
                   className="flex items-center"
                 />
               </Link>
-              <figcaption className="text-center text-[.7rem] lg:text-[.9rem]">Instagram</figcaption>
+              <figcaption className="text-center text-[.7rem] lg:text-[.9rem]">
+                Instagram
+              </figcaption>
             </figure>
           </li>
           <li className="p-1.5 lg:p-3">
@@ -60,8 +62,12 @@ const Footer = () => {
                   height={25}
                 />
               </a>
-              <figcaption className="text-center text-[.8rem] lg:text-[.9rem]">E-mail</figcaption>
-              <p className="text-center text-[.7rem] lg:text-[.8rem]">sothsolutions.tech@gmail.com</p>
+              <figcaption className="text-center text-[.8rem] lg:text-[.9rem]">
+                E-mail
+              </figcaption>
+              <p className="text-center text-[.7rem] lg:text-[.8rem]">
+                sothsolutions.tech@gmail.com
+              </p>
             </figure>
           </li>
         </ul>
