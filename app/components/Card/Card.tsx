@@ -20,7 +20,7 @@ const Card: FC<CardProps> = ({ image, description, name, url, platform }) => {
   return (
     <main>
       <section
-        className="flex p-1 group transition-all ease-in-out duration-[1.3s] text-[.75rem] md:text-md lg:text-[1rem]"
+        className="flex p-1 group transition-all ease-in-out duration-[1.3s] text-[.8rem] md:text-[.9rem] lg:text-[1rem]"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
