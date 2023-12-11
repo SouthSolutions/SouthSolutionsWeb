@@ -14,13 +14,13 @@ const Services = () => {
 
   // -------------------------------- price's page ------------------------- //
 
-  const landingUsd = 200;
+  const landingUsd = 100;
 
-  const smallUsd = 400;
+  const smallUsd = 200;
 
-  const SeCommerce = 800;
+  const SeCommerce = 400;
 
-  const FeCommerce = 2000;
+  const FeCommerce = 1000;
 
   // ------------------------------- change types -------------------------- //
 
@@ -100,7 +100,7 @@ const Services = () => {
                             .........................
                           </p>
                           <span className="text-[.8rem] md:text-md lg:text-[1.1rem]">
-                            $ 350 USD
+                            $ 250 USD
                           </span>
                         </div>
                       </li>
