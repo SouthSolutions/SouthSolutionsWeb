@@ -16,12 +16,12 @@ const Footer = () => {
           <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/contact">Contacto</Link>
           </li>
-          <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
+          {/* <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Blog</a>
           </li>
           <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <a href="#">Trabaja con nosotros</a>
-          </li>
+          </li> */}
           <li className="text-[.7rem] md:text-[.75rem] lg:text-sm p-1 lg:p-1 rounded-[3em] hover:rounded-[3em] hover:bg-[#2babae] transition duration-200">
             <Link href="/"> Inicio </Link>
           </li>
