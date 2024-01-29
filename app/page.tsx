@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-[0px] md:mx-15 lg:mx-20">
+        <section className="mx-[0px] md:mx-15 lg:mx-20 my-20">
           <h2 className="text-center mt-10 text-2xl underline md:text-2xl lg:text-3xl">
             ¿Por qué tener tu propia web?
           </h2>
