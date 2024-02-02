@@ -78,7 +78,7 @@ const Contact = () => {
             </figure>
           </Link>
         </div>
-        <ContactForm />
+        {/* <ContactForm /> */}
         <hr />
       </div>
       <footer className="mt-auto">
