@@ -2,6 +2,7 @@ import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav/Nav";
 import Image from "next/image";
 import Link from "next/link";
+import ContactForm from "./Form/Form";
 import { RiWhatsappFill } from "react-icons/ri";
 
 const Contact = () => {
@@ -19,7 +20,9 @@ const Contact = () => {
         </nav>
         <h1 className="text-center text-3xl p-6">Contactanos!</h1>
         <div className="flex justify-between flex-wrap items-center w-[20rem] md:w-[40rem] lg:w-[55rem] m-auto p-1 md:p-3 lg:p-[3rem]">
-          <Link href="https://wa.me/+5688575861?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta" className="p-1 md:-4 lgp-6">
+          <Link
+            href="https://wa.me/+5688575861?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta"
+            className="p-1 md:-4 lgp-6">
             <figure>
               <Image
                 src={wppImage}
@@ -31,7 +34,9 @@ const Contact = () => {
               <figcaption className="text-center">Franco</figcaption>
             </figure>
           </Link>
-          <Link href="https://wa.me/+541135655412?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta" className="p-1 md:p-4 lg:p-6">
+          <Link
+            href="https://wa.me/+541135655412?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta"
+            className="p-1 md:p-4 lg:p-6">
             <figure>
               <Image
                 src={wppImage}
@@ -42,7 +47,9 @@ const Contact = () => {
               <figcaption className="text-center">Alexis</figcaption>
             </figure>
           </Link>
-          <Link href="https://wa.me/+573156226982?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta" className="p-1 md:p-4 lg:p-6">
+          <Link
+            href="https://wa.me/+573156226982?text=Hola!,%20vi%20su%20web,%20SouthSolutions%20y%20tengo%20una%20consulta"
+            className="p-1 md:p-4 lg:p-6">
             <figure>
               <Image
                 src={wppImage}
@@ -53,17 +60,30 @@ const Contact = () => {
               <figcaption className="text-center">Wilson</figcaption>
             </figure>
           </Link>
-          <Link href="mailto:southsolutions@gmail.com?subject=Consulta-contacto&body=Hola" className="p-1 md:p-4 lg:p-6">
+          <Link
+            href="mailto:southsolutions@gmail.com?subject=Consulta-contacto&body=Hola"
+            className="p-1 md:p-4 lg:p-6">
             <figure>
-              <Image src={mailImage} alt="E-mail" width={130} height={130} className="p-[1.2rem]" />
+              <Image
+                src={mailImage}
+                alt="E-mail"
+                width={130}
+                height={130}
+                className="p-[1.2rem]"
+              />
 
-              <figcaption className="text-center">SouthSolutions.tech</figcaption>
+              <figcaption className="text-center">
+                SouthSolutions.tech
+              </figcaption>
             </figure>
           </Link>
         </div>
+        <ContactForm />
+        <hr />
       </div>
       <footer className="mt-auto">
         <Footer />
+        
       </footer>
     </div>
   );
