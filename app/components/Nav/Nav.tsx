@@ -22,11 +22,11 @@ const Nav = () => {
       <div className="justify-between flex bg-[#edf5f7]">
         <Link href="/">
           <Image
-            className="m-1 rounded-[50%] bg-[#edf5f7]  "
+            className="m-[.5] rounded-[50%] bg-[#edf5f7]  "
             src={SouthSolutions5}
             alt="SouthSolutionsLogo"
-            width={50}
-            height={10}
+            width={80}
+            height={30}
           />
         </Link>
         <Link href="/">
