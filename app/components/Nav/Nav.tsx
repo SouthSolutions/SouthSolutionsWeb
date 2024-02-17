@@ -25,8 +25,8 @@ const Nav = () => {
             className="m-[.5] rounded-[50%] bg-[#edf5f7]  "
             src={SouthSolutions5}
             alt="SouthSolutionsLogo"
-            width={80}
-            height={30}
+            width={100}
+            height={70}
           />
         </Link>
         <Link href="/">
