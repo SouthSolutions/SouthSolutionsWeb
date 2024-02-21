@@ -7,12 +7,12 @@ export default function Animation() {
   useEffect(() => {
     if (window) {
       const options = {
-        strings: ["Tu Propia App", "Tu Propia Web"],
-        typeSpeed: 100,
-        backDelay: 500,
-        backSpeed: 100,
+        strings: ["App", "Web"],
+        typeSpeed: 150,
+        backDelay: 600,
+        backSpeed: 200,
         loop: true,
-        showCursosr: false,
+        showCursor: false,
       };
 
       const typed = new Typed("#typed", options);
@@ -31,8 +31,10 @@ export default function Animation() {
         <div className="flex justify-center">
           <h2
             style={{ fontFamily: "monospace" }}
-            className=" text-2xl  md:text-3xl lg:text-3xl text-white  transition-all duration-[1s] mt-6"
-            id="typed"></h2>
+            className=" text-2xl  md:text-3xl lg:text-3xl text-white transition-all duration-[1s] mt-6">
+            <span>tu propia </span>
+            <span id="typed"></span>
+          </h2>
         </div>
       </div>
     </section>
